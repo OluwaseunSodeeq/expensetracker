@@ -1,0 +1,123 @@
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+     
+}
+:root{
+    --bg-color:aliceblue;
+    --btn-bg-color:#FFFFFF;
+    --first-btn-bg:rgb(91, 91, 182);
+    --first-text-color:#000;
+    --second-text-color:rgb(255, 81, 0);
+    --third-text-color:#fff;
+}
+body{
+    width: 100%;
+    height:100vh;
+    text-align: center;
+    margin-top: 100px;
+}
+.card {
+    max-width: 400px;
+    height: auto;
+    margin: 0 auto;
+    padding: 30px 0px;
+    background-color: var(--bg-color);
+}
+.firstButton {
+    padding: 15px 110px;
+    margin: 0 auto;
+    font-size: 18px;
+    
+
+}
+.inputList {
+    display: none;
+    height: 260px;
+
+}
+.inputList,.ExpenseList {
+    max-width: 360px;
+    margin: 0 auto;
+    margin-top: 20px;
+    background-color:var(--btn-bg-color);
+    
+    
+}
+.latterWithin, .firstButton{
+    background-color: var(--first-btn-bg);
+    color:var(--third-text-color);
+    border: none;
+    border-radius: 5px;
+
+}
+.inputList input{
+    border: 1px solid #000;
+    padding: 10px 80px;
+    margin-top: 20px;
+}
+.inputList input::placeholder{
+    text-align: center;
+}
+input[type="date"] {
+    padding: 10px 110px;
+}
+
+.innerButtons{
+     margin-right: -80px;
+}
+.inputList .innerButtons > button {
+    margin-top: 20px;
+    padding: 8px 30px;
+}
+
+.formerWithin,.removedButton{
+    border: none;
+    color:var(--second-text-color) ;
+    background-color:var(--btn-bg-color);
+
+}
+.total {
+  height: auto;
+  
+}
+
+.listedItems> p{
+    max-width: 360px;
+    background-color:var(--btn-bg-color);
+    font-size: 16px;
+    padding: 5px 15px;
+    text-align: left;
+    margin-left: 20px;
+    margin-top: 20px;
+    margin-bottom: -18px;
+
+}
+
+.ExpenseList{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: auto;
+    margin-bottom: -18px;
+    border-top:1px solid #dcdcdc ;
+}
+.expenseDate {
+    background-color: var(--first-btn-bg);
+    color: var(--third-text-color);
+    padding: 5px 15px;
+    border-radius: 5px;
+    height: 75px;
+    font-size: 16px;
+    margin: 5px 0px 5px 15px;
+}
+.ExpenseList button{
+    padding: 5px 15px;
+    margin-right: 15px;
+    
+}
+
+
