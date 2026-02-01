@@ -1,0 +1,12 @@
+// Expense tracker
+
+
+- form to enter expense name, expense amount, date, button to add to expenses and cancel button // at the top of page
+
+A single button on the page that says “Add new expense”
+Expense form should show on “Add new expense” click
+Expense form should hide when you click cancel from the expense form
+Expense form should also hide when you successfully add a new expense to expense list. 
+
+- list of all added expenses
+- “no expenses” statement
